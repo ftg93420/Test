@@ -1,0 +1,11 @@
+exercice spring 4
+-------------------
+ajouter une classe
+GeoLocalisation( longitude: double, latitude :double)
+
+ajouter la geolocalisation a la classe site
+
+et permettre de déclarer un site dans le fichier
+de configuration directement avec une geolocalisation
+sous un format texte (par exemple "45.5;12.3")
+

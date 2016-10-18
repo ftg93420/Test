@@ -1,0 +1,29 @@
+exercice git 2
+---------------
+creer un projet avec un depot git
+
+en branche
+	master
+	dev
+	devserveur
+	devclient
+
+toutes positionnées sur le commit initial du README.MD
+
+faire 3 commit sur chaque les branches devserveur et
+ devclient
+ 
+ merger la branche devserveur avec la branche dev
+ 
+ Cas A)
+	merger ensuite la branche devclient avec dev
+	verifier que tout est ok
+	defaire ce merge
+ cas B)
+	au lieu d'un merge de devclient
+	utiliser rebase pour replacer les commit de devclient
+	a la suite de la branche dev
+
+a la fin, effacer les branches devClient et devServeur
+
+	

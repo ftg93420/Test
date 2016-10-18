@@ -1,0 +1,17 @@
+Pour renommer un projet web Maven
+-----------------------
+le copier HORS de mon git, dans votre workspace
+
+renommer le repertoire
+changer le nom dans le pom.xml (NAME et ARTIFACTID)
+changer le rep dans les fichiers launch
+changer le nom projet dans le ficher .project
+
+importer dans eclipse avec
+	import existing maven project
+
+faire attention aux chemins:
+	du serveur apache tomcat (pom.xml)
+	du repertoire de log (dans log4j.xml)
+	du nom de la bdd (dans database.properties)
+	

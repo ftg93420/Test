@@ -1,0 +1,30 @@
+﻿exercice spring 3 (AOP)
+-----------------------
+
+ecrire un AroundAdvice de type "memento"
+memento : un mecanisme de cache
+
+a applique sur une/des fonctions deterministes
+une fonction qui est deterministe (meme valeur en entrée
+							-> meme resultat en sortie)
+							
+on imagine que l'appel est très couteux
+	c'est intéréssant de mémoriser les valeurs
+	retournée précédement au cas ou on nous redemande
+	le même calcul
+
+1) ecrire cet advice pour qu'il fonctionne
+sur une signature de méthode uniquement
+et sur un objet et une methode en même temps
+
+
+2) il doit maintenant fonctionner sur plusieurs
+methodes en même temps, mais qui on les memes
+type de parametre retour (1 parametre en entrée, 1 valeur
+retournée)
+
+bonus 3) cela marche quelque soit la methode et ses
+arguments
+
+
+

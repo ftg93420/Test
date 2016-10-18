@@ -1,0 +1,99 @@
+Maven
+-------
+
+java -> runtime(jvm)
+
+javac -> compilateur
+ce qui fait: .java -> .class
+
+jar -> packaging
+
+multiple  .class -> un ficher.jar
+
+deploiement -> serveur tomcat
+
+generer doc, faire test unitaire...
+
+tout ce travail peu se faire manuellement
+NE LE FAITES PAS
+
+eclipse automatise en partie
+src -> package/source
+bin -> package/classe compliée
+
+on a besoin d'un systme pour automatiser la construction
+de notre projet
+
+C/C++ -> makefile
+pyhton -> pip
+javascript/node -> npm
+
+en JAVA
+hostoriquement, ant
+ant utilise un fichie build.xml
+	une liste de tache a executer et leur enchainement
+		- compiler
+		- copier fichier
+		- packager
+		- etc/etc
+
+besoin d'un systme plus poussé
+	-> MAVEN
+build system avec un fonctionnement différent de ant
+maven s'attend a une certaine structure standard pour
+projet
+-> convention over configuration
+simplifie fortement la mise en place de projet complexe
+
+2 eme enorme avantage
+	-> gestion automatique des dependances
+	(dependances vers les librairies externes)
+
+POM.xml -> projet object model
+	definir de quelle librairie a besoin notre projet
+	-> maven va automatiquement telecharger les librairies
+	et les mettre en place dans notre projet
+	- il gere les dependances transitive
+	- vous pouvez deployer vos projet en tant qu'articfact
+	maven
+
+-> maven fonctionne avec un cycle de vie (l'ensemble des
+operations a réaliser)
+
+1) validate -> verifier que tout est correct et disponnible
+
+2) compile -> compilation du projet
+
+3) test -> execution des suite de test unitaire
+
+4) package -> generation des livrable (executable, jar, etc)
+
+5) verify -> verification des livrable et test integration
+
+6) install -> install le package dans votre depot maven 
+local
+
+7) deploy -> deployer sur un depot maven distant
+
+
+quand vous creez votre projet
+choix le livrable voulu (packaging)
+	pom, jar, war, ear
+	
+maven attache des "goal" au différentes phase du cyle de vie
+exemple pour jar
+
+une etape cycle			  plugin:objectig/action
+process-resources		: resources:resources
+compile					: compiler:compile
+....
+test					:surefire:test
+package					:jar:jar
+
+deux facons de personnaliser le build
+	- extension dans la balise build
+	- utilisation de nouveau plugins
+
+les archetypes:
+	- squelette de projets basiques
+	vous utilisé l'archetype pour générer un nouveau projet

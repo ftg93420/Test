@@ -1,0 +1,21 @@
+﻿exercice JPA 1
+---------------
+
+ecrire une petite application graphique permettant
+de saisir et sauvegarder depuis une base de donnée
+une liste de taches (todoList)
+
+Tache
+-------
+id				int
+description		String
+priorite		int (1 - 10)
+contexte		String  (par exemple: "maison","bureau",etc....)
+
+etape 1)
+	application basique avec crud et liste graphique
+bonus)
+etape 2)
+	- permetre de filtrer la liste en fonction du contexte
+	- trier la liste a l'affichage en fonction de la priorité
+	

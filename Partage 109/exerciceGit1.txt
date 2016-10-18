@@ -1,0 +1,20 @@
+eExercice Git 1
+---------------
+
+A) creer un depot "depot_exercice1"
+
+B) faire un premier commit avec README.MD et install.txt
+
+C) creer une branche 'dev' et basculer vers celle-ci
+
+D) faire plusieurs commit dans dev (doc, etc...)
+
+E) revenir d'un commit en arriere (annuler le dernier
+ commit)
+
+F) basculer sur 'master' et faire un commit
+
+G) puis merger la branche dev vers la branche master
+
+
+

@@ -1,0 +1,55 @@
+
+1) pour creer un depot vide
+
+git init
+
+2) pour connaitre l'etat d'un depot
+
+git status  ---> (status)
+git log		---> historique
+git log --pretyu=oneline  --> historique abrégé
+git branch --> liste des branches connues
+
+3) pour sauvegarder des changements dans un nouveau
+ commit
+ 
+git add --all    ---> ajouter tous les changements dans l'index
+git add fichier  ---> ajouter les  changements du ficher dans l'index
+
+ensuite
+
+git commit -m "message"  --> commiter tous les changements de l'index
+dans l'historique de git via un nouveau commit
+
+4) si on a fait une erreur
+
+git reset HEAD    ----> annule tous les changements dans l'index, sans
+toucher a la copie de travail
+
+git reset --hard HEAD    ----> annule tous les changements dans l'index, et
+reinitialise la copie de travail au même état (perte de vos editions en cours)
+
+git reset HEAD~2  ----> revenir 2 commit en arriere et en faire le nouveau
+HEAD de la branche courante (sans toucher a la copie de travail)
+ATTENTION, les commit "défait" ne sont pas tout de suite effacés, mais
+ seront réelement perdu au bout 90 jours
+
+5) gestion des branches
+
+git branch "nom_nouvelle_branche"  (sans les guillemets) ---> creer une branches
+MAIS NE VOUS POSITIONNE PAS DESSUS
+
+git checkout "nom_branch"   --> bascule vers la branche 'nom_branch'
+
+on peut combiner les 2 précédent avec
+git checkout -b "nom_nouvelle_branche"
+
+git branch --> affiche les branche connues
+git branch -d "nom_branche"  --> efface une branche de git
+
+6) autres operations
+
+gitk --> outils "graphique" pour afficher votre depot
+git show-branch   --> affiche un historique par branche
+git commit --amend  ---> modifie le dernier commit au lieu d'en creer
+un nouveau

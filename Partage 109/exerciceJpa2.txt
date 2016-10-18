@@ -1,0 +1,36 @@
+exercice JPA 2
+-----------------
+
+Client
+---------
+id
+nom
+email
+
+
+Commande
+---------
+id
+description
+prix
+dateCommande
+
+Client  1)------(N Commande
+
+A) mettre en place le mapping des entités, avec navigation
+ bidirectionnelle entre Client et commande
+ 
+B) ajouter des données pour tester (5 clients, 20 commandes)
+
+C) s'arranger pour qu l'effacement d'un Client marche
+automatiquement, sans effacer ses commandes
+
+D) requettage
+	1) trouver un client et afficher ses commandes
+	2) lister les commandes avec le nom de leur client
+	3) lister les clients et le nombre de leur commandes
+	4) lister les clients et le nombre de leur commande > prix choisi
+	5) lister les clients et la moyenne de prix de leur commande
+		uniquement si la moyenne est supérieur a une valeur choisie
+	
+

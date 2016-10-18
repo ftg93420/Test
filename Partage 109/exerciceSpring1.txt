@@ -1,0 +1,38 @@
+Exercice Spring 1
+---------------------
+Spring Academy
+
+IArtiste
+---------
+faireNumero
+
+
+Musicien, Jongleur, HommeOrchestre
+
+Musicien a besoin d'un IInstrument (Trompette, piano... via injection)
+quand on lui demande de faire son numero, le musicien joue de l'instrument
+
+Jongleur a besoin de n balles, et il jongle avec
+
+l'Homme Orchestre joue de multiples instruments en même temps
+	( a lui injecter)
+	
+certains instruments sont a usage exclusif, d'autres partagés
+certains instruments on besoin d'etre accordé initialement
+
+enfin, la SpringAcademy fournit en service un public
+qui applaudit automatiquement l'artiste avant son numéro
+et applaudit ou conspue (aleatoirement) l'artiste après le
+numéro
+
+enfin, un des instruments (violon) est fournit par une factorie
+Luthier
+
+
+indice pour injection de liste
+	<list>
+		<bean class="...." ... />
+		<ref bean="idautrebean" />
+	</list>
+
+

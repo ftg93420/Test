@@ -1,0 +1,51 @@
+﻿Exercice jpa 3
+---------------
+
+modéliser une université
+
+Etudiant
+--------
+id
+nom
+email
+
+Matiere
+-------
+id
+libelle
+
+Professeur
+----------
+id
+nom
+email
+salaire
+
+Cours
+----------
+id
+dateDebut
+dateFin
+titre
+capacite  : (nb etudiant pouvant etre accueilli dans le cours) int
+
+
+Etudiant n)-----(n Cours n)-------(1 Profeseur
+Cours n)------(1 Matiere
+
+A) faire le mapping
+	A') bien gérer les ajout, supression, etc....
+B) remplir la base avec des données 
+(100 etudiants, 3 professeurs, 4 matieres, 15 cours)
+
+C) requettes
+	1) lister tous les etudiants qui assistent a un cours choisi
+	2) lister les cours et le nombre d'etudiants qui y assistent
+	3) lister les cours et leur taux de remplissage
+	4) lister les matieres et le nombre d'etudiants qui y assistent
+	---------------
+	5) lister les etudiants qui assistent a au moins un cours d'un
+	professeur donné
+	6) lister les etudiants qui assistent a aucun cours d'un 
+	professeur donné
+

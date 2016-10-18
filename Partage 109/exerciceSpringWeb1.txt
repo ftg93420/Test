@@ -1,0 +1,19 @@
+Exercice Spring Web 1
+----------------------
+developer une mini app web de maintenance
+
+Intervention
+------------
+id : int
+intervenant: String
+lieu : String
+noMateriel: String
+dateProgrammee: Date
+description: String 
+
+
+liste des interventions
+creer/editer/supprimer des interventions
+
+Bonus
+trier les interventions par dateProgrammee

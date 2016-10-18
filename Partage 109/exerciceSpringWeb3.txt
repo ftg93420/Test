@@ -1,0 +1,39 @@
+exercice Spring web 3
+-----------------------
+
+Employe
+--------
+id
+nom
+email
+salaire
+poste
+
+
+Departement
+------------
+id
+nom
+manager(bonus)
+
+
+Departement 1)--------(n Employe
+bonus
+Departement n)--------(1 Manager(employe)
+
+permettre de lister les employes
+crud sur les employes (sauf departement)
+
+possibilité de filter les employé par departement
+
+bonus)
+reaffecter un employe a un autre département
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Exercice spring web 2
+-----------------------
+refaire l'exercice 1 (interventions)
+en utilisant JPA/spring/web
+
