@@ -1,0 +1,12 @@
+exercice spring web 4
+---------------------
+ajouter la validation a l'exercice 3
+
+	nom ne peut etre vide
+	email a un format valide
+	
+	le salaire doit etre compris entre 1000 et 10000
+	
+	poste ne peut etre vide
+	
+	

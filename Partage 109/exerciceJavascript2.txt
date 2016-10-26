@@ -1,0 +1,27 @@
+exercice javascript 2
+----------------------
+faire une petite application de gestion de ticket
+
+Ticket
+-------
+description
+urgence
+
+TicketPanne  : Ticket
+-----------
+noMateriel
+
+TicketLogiciel  : Ticket
+-----------
+nomlogiciel
+version
+
+un ticket peut etre affiché sous format html
+ticketPanne et TicketLogiciel personnalise cet affichage
+
+le remplissage du ticket a partie d'un formulaire
+se fait via un choix par liste deroulante(materiel ou logiciel)
+dans la classe ticket(logiciel ou materiel)
+			fillFromForm(remplissage depuis formulaire)
+			
+

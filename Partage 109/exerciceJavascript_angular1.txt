@@ -1,0 +1,10 @@
+exercice javascript/angular 1
+-----------------------------
+
+faire une petite application spring/jpa/mvc
++ html/javascript/jquery séparée pour lister
+les produits dans une base (avec pagination)
+id, nom, prix, poids
+on peu recherche un produit par nom
+Bonus) on peu rechercher un produit par prix minimum
+

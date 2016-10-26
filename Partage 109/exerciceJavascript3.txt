@@ -1,0 +1,35 @@
+faire une petite application javascript (uniquement html + javascript)
+qui vous permette de "dessiner" des petits diagrammes
+dans un canvas, et de les sauver sous un 
+nom choisi dans le localStorage
+possibiliter de les recharger
+
+possibilité de dessin
+	-> un rectangle vide (via clique de souris)
+	-> idem pour rectangle plein
+	-> une ligne d'un point a un autre (bonus: fleche)
+	-> du texte a un endroit choisi (depuis un champ input)
+
+	ce qui est parametrable dans l'interface:
+		-> couleur de pinceau pour une figure
+		-> couleur de remplissage pour une figure
+		-> taille du texte
+	-> MEGA bonus:
+		-> pouvoir selectionner une figure dans le canvas
+		pour le supprimer
+		
+exemple desssin d'un rectangle
+ x ---> 
+y	
+|	+ (button down)
+|
+|				+ (button up)
+v
+
+ x ---> 
+y	
+|	+-----------+
+|	|			|
+|	+-----------+
+v
+

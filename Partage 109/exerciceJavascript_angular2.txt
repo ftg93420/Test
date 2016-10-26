@@ -1,0 +1,23 @@
+exercice javascript angular 2
+------------------------------
+ecrire une petite application angularjs
+en utilisant bootstrap
+gerer une todoList
+
+tache
+------
+id
+titre
+priorite
+contexte
+dateLimite
+termine : boolean
+
+liste affiche les taches
+trier par priorité/titre/contexte/dateLimite
+le style d'affichage d'une tache change un peu
+avec sa priorite
+les taches terminées apparaissent grisée
+
+un formulaire permettant de saisir une tache
+un bouton par tache pour terminer celle-ci

@@ -11,7 +11,7 @@ importer dans eclipse avec
 	import existing maven project
 
 faire attention aux chemins:
-	du serveur apache tomcat (pom.xml)
+	du serveur apache tomcat (pom.xml cargo en bas)
 	du repertoire de log (dans log4j.xml)
 	du nom de la bdd (dans database.properties)
 	

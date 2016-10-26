@@ -1,0 +1,15 @@
+exercice javascript 1
+---------------------
+ecrire une page avec javascript
+qui permet de saisir une tache a réaliser
+tache:
+	description :texte
+	contexte	:texte
+	priorite	:numbre
+
+affichage de la liste des taches
+
+si vous cliquez sur une des taches
+elle est terminée et disparait de la liste
+
+	
