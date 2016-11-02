@@ -1,0 +1,16 @@
+exercice angular 3
+------------------
+ecrire une application angular avec le backend
+pour todolist
+avec opération CRUD et validation
+
+Tache
+--------
+id
+titre		5 et 50 caracteres
+contexte	idem pour le contexte
+priorite	1 et 10
+termine		checkbox(true/false)
+dateLimite (bonus) (dans dans le future)
+
+

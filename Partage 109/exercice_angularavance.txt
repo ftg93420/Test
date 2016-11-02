@@ -1,0 +1,12 @@
+exercice
+---------------
+
+- rajouter 1 bouton pour voire le détail d'un produit
+	le détail d'un produit affiche aussi ses images
+	associées
+- dans l'ecran d'edition d'un produit, on peut
+dropper des images du produit pour les uploader et associer
+au produi en edition
+
+
+Produit 1)--------(n Image
