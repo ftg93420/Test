@@ -1,0 +1,34 @@
+faire un site de ventes aux encheres
+------------------------------------
+
+une application angularjs + backend rest/json
+
+Produit
+--------
+id
+nom
+description
+prixInitial
+
+proprietaire n-->1 User
+enchereCourante 1--->1 Enchere
+images 1--->n Image
+
+Image
+-------
+champ fichier
+
+
+User
+-------
+id
+nom
+email
+
+Enchere
+-------
+id
+prixEncherissement
+
+encherePrecedente  1--->1 Enchere
+encherisseur n--->1 User

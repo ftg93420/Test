@@ -1,0 +1,55 @@
+Etapes
+
+1) se mettre d'accord sur le modele de données
+
+Produit
+--------
+id
+...
+currentEnchereID
+
+
+Enchere
+--------
+id
+....
+ProduitID
+
+		one	to	Many
+Produit -----+---Enchere 1
+			 |
+			 +---Enchere 2
+			 
+Enchere {
+
+	@ManyToOne
+	private Produit produit   --> sur quel produit 
+}
+
+Produit {
+
+	@OneToOne
+	@joinColumn(....)
+	privare Enchere currentEnchere --> enchere courante
+}
+
+place une enchere
+	-> transmettre
+		id du produit
+		id de l'utilisateur qui place l'enchere
+		l'encherissement
+	
+	il faut recuperer le produit
+	Produit p = prepo.findOne(idProduit);
+	Enchere current = p.getCurrentEnchere();
+	User u = urepo.findOne(uid);
+	Enchere ne = new Enchere();
+	ne.setProduit(p);
+	ne.setUser(u);
+	ne.setPrevious(current);
+	ne = eRepo.save(ne);   // -> id primaire pour ne
+	p.setCurrentEnchere(ne);
+	p = prepo.save(p);
+	
+
+
